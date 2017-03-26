@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/piluh"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_below="@+id/button24"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/beranda"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="DATA SEKOLAH"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignRight="@+id/button23"
+        android:layout_alignEnd="@+id/button23" />
+
+
+    <Button
+        android:id="@+id/button22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/nisn"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="CEK DATA PEGAWAI"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button21"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/user3"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="CEK DATA GURU KEMENAG"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button22"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/button24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/login"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="SIMPATIKA LOGIN"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button23"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/button25"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/pmp"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="LOGIN PMP"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/adView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button26"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/verval"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="verval peserta didik"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button27"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button27"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/ujian"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="cek peserta ujian"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button25"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+
+
+

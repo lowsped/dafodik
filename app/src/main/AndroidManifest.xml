@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="xyz.soalatihan.dapodik">
+    <uses-permission android:name="android.permission."/>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="xyz.soalatihan.dapodik.ceknuptk"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.about"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.sertifikasi"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.info"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.info1"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.info2"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.info3"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.info4"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.info5"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.sekolah"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.seko"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.seko1"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.seko2"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.seko3"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.seko4"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.pd"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.pd1"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.pd2"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.pd3"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.peserta"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.infokemenag"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.berandadapodik"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.progresdata"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.laporbos"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.loginoperator"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.mutasiptk"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.nisn"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.ujian"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.verval"></activity>
+        <activity android:name="xyz.soalatihan.dapodik.tutor"></activity>
+    </application>
+
+</manifest>

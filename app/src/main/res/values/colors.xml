@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5a0c0a</color>
+    <color name="colorPrimaryDark">#5a0c0a</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="red">#fc0358</color>
+    <color name="hitam">#3d3739</color>
+    <color name="crem">#0cdeda</color>
+    <color name="kuning">#e4da17</color>
+    <color name="ungu">#d017e4</color>
+    <color name="ijogodong">#45f70a</color>
+    <color name="dark">#646462</color>
+
+</resources>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/piluh"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_below="@+id/button34"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/beranda"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="pip DIKDASMEN"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/button32"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/user3"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="CARI NISN SISWA"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button31"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+
+    <Button
+        android:id="@+id/button33"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/pd"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="CEK VERVAL PESERTA DIDIK"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button32"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button34"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/nisn"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="TARIK PESERTA DIDIK"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button33"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+
+
+
+

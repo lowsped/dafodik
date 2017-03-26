@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Dapodik SD SMP SMA</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">about</string>
+    <string name="update">update aps</string>
+    <string name="about">"Thank's To:\n" \n" " Allah S.W.T \n" "My   Family\n" "Google.inc\n" "And\n" "all you have been using my application\n"
+    \n" WhatsApp: 089626810115\n" "Copyright@2017\n" "PEMIKIR VERSI BARU\n"
+    </string>
+    <string name="tutor">"Tutorial Singkat:\n" \n" " Apabila dalam klik tombol muncul notifikasi pilihan INSTAL APP ON GOOGLE PLAY atau LANJUTKAN KE VERSI WEB, maka pilihlah yang lanjutkan ke versi web untuk melanjutkanya  \n" \n"  Aplikasi ini saya buat untuk memudahkan guru dan operator\n"
+    </string>
+    <string name="banner_ad_unit_id">ca-app-pub-1142409875326374/9744436049</string>
+    <string name="admob_interstitial_id">ca-app-pub-1142409875326374/2221169240</string>
+</resources>

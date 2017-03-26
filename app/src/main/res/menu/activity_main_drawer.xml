@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/mutasi"
+            android:title="cek sertifikasi" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/beranda"
+            android:title="sekolah" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/user3"
+            android:title="peserta didik" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/operator"
+            android:title="operator sekolah" />
+    <item
+        android:id="@+id/update"
+        android:icon="@drawable/update"
+        android:title="update aps" />
+        <item
+            android:id="@+id/tutor"
+            android:icon="@drawable/peserta"
+            android:title="tutorial" />
+    </group>
+</menu>

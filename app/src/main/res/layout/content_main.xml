@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="xyz.soalatihan.dapodik.MainActivity"
+    tools:showIn="@layout/app_bar_main">
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="186dp"
+        android:layout_height="143dp"
+        android:text="                                                                       cek BOS ONLINE"
+        android:textColor="@color/dark"
+        android:scaleType="centerInside"
+        tools:layout_editor_absoluteY="121dp"
+        android:drawableLeft="@drawable/boson"
+        tools:layout_editor_absoluteX="197dp"
+        android:background="@drawable/butred"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="183dp"
+        android:layout_height="62dp"
+        android:background="@drawable/butpink"
+        android:text="CEK NISN"
+        android:textColor="@color/colorPrimary"
+        tools:layout_editor_absoluteY="59dp"
+        tools:layout_editor_absoluteX="198dp"
+        android:layout_alignBottom="@+id/button4"
+        android:drawableLeft="@drawable/nisn"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="190dp"
+
+        android:drawableLeft="@drawable/user3"
+        android:layout_height="204dp"
+        android:text="CEK INFO                                             NUPTK KEMENAG"
+        android:textColor="@color/kuning"
+        android:background="@drawable/butdark"
+        android:scaleType="centerInside"
+        tools:layout_editor_absoluteY="59dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/button2"
+        android:layout_toStartOf="@+id/button2" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="100dp"
+        android:layout_height="221dp"
+        android:background="@drawable/button_border"
+        android:drawableLeft="@drawable/user3"
+        android:padding="10dp"
+        android:textColor="@color/red"
+        android:text="CEK                                               NUPTK"
+        tools:layout_editor_absoluteY="44dp"
+        tools:layout_editor_absoluteX="146dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/button2" />
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="139dp"
+        android:layout_height="106dp"
+        android:background="@drawable/buthati"
+        android:text="CEK PROGRES PENGIRIMAN DATA"
+        android:drawableLeft="@drawable/progres"
+        android:textColor="@color/ijogodong"
+        tools:layout_editor_absoluteY="458dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:layout_below="@+id/button2"
+        android:layout_alignRight="@+id/button7"
+        android:layout_alignEnd="@+id/button7"
+        android:layout_above="@+id/button6"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="139dp"
+        android:layout_height="106dp"
+        android:background="@drawable/butijo"
+        android:drawableLeft="@drawable/login"
+        android:text="LOGIN OPERATOR SEKOLAH"
+        android:textColor="@color/hitam"
+        tools:layout_editor_absoluteY="458dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:layout_above="@+id/button5"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="142dp"
+        android:layout_height="7dp"
+        android:background="@drawable/butdark"
+        android:drawableLeft="@drawable/beranda"
+        android:text="BERANDA DAPODIK"
+        android:textColor="@color/kuning"
+        tools:layout_editor_absoluteY="458dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/button6"
+        android:layout_alignTop="@+id/button6" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="139dp"
+        android:layout_height="111dp"
+        android:background="@drawable/butijo"
+        android:drawableLeft="@drawable/mutasi"
+        android:text="MUTASI PTK"
+        android:textColor="@color/red"
+        tools:layout_editor_absoluteY="344dp"
+        tools:layout_editor_absoluteX="4dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>
+

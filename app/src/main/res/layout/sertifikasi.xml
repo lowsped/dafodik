@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/piluh"
+    android:layout_height="match_parent">
+
+
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"
+        android:layout_below="@+id/button14"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/user3"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="info.gtk.kemdikbud.go.id"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/server"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="server 1"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/server"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="server 2"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button11"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/server"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="server 3"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button12"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/button14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/server"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="server 4"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/button13"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+    <Button
+        android:id="@+id/button15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.09"
+        android:height="60dp"
+        android:drawableLeft="@drawable/server"
+        android:drawablePadding="6dp"
+        android:gravity="left|center"
+        android:padding="6dp"
+        android:text="server 5"
+        android:textAlignment="center"
+        android:textColor="@color/hitam"
+        android:textStyle="bold"
+        android:layout_below="@+id/adView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
+
+
+
+
